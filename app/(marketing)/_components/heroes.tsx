@@ -8,7 +8,13 @@ export const Heroes = () => {
           <Image 
             src="/taking-note.png"
             fill
-            className="object-contain"
+            className="object-contain dark:hidden"
+            alt="Vector by macrovector"
+          />
+          <Image
+            src="/taking-note-dark.png"
+            fill
+            className="object-contain hidden dark:block"
             alt="Vector by macrovector"
           />
         </div>
@@ -16,7 +22,13 @@ export const Heroes = () => {
           <Image 
             src="/searching.png"
             fill
-            className="object-contain"
+            className="object-contain dark:hidden"
+            alt="Vector by macrovector"
+          />
+          <Image
+            src="/searching-dark.png"
+            fill
+            className="object-contain hidden dark:block"
             alt="Vector by macrovector"
           />
         </div>
